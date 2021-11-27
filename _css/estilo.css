@@ -1,0 +1,66 @@
+#main {
+    margin-left: 120px
+}
+
+.w3-row-padding-img {
+    margin-bottom: 12px;
+}
+
+/* Definimos que a sidebar terá uma largura de 120px e cor a cord de fundo #222 */
+
+.w3-sidebar {
+width: 120px;
+background: #222;
+}   
+  /*Define Fonte para todas as tags listadas abaixo*/
+body, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+}
+#b1 {
+    position: relative;
+    top: 280px;
+    left: -125px
+}
+#b2{
+    position: relative;
+    top: 280px;
+    left: 1020px
+}
+@media only screen and (max-width: 600px) {
+    #b1 {
+        position: relative;
+        top: 10px;
+        left: 15px
+    }
+    #b2 {
+        position: relative;
+        top: 10px;
+        left: 155px
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #b1 {
+        top: 10px;
+        left: 15px
+    }
+    #b2 {
+        top: 10px;
+        left: 15px
+        
+    }
+}
